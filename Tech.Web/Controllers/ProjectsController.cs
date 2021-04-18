@@ -16,7 +16,10 @@ namespace Tech.Web.Controllers
             vm.Projects.Add(new Project()
             {
                 Name = "Nemesis Engage",
-                Description = "Characters"
+                Description = "Characters",
+                Type = "Video Game",
+                Creator = "John Brooks"
+
             });
             return View(vm);
         }
