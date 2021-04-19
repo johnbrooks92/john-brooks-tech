@@ -16,11 +16,39 @@ namespace Tech.Web.Controllers
             vm.Projects.Add(new Project()
             {
                 Name = "Nemesis Engage",
-                Description = "Characters",
+                Description = "Turn-based fighting system demo created utilizing HTML, CSS, JS and jQuery",
                 Type = "Video Game",
-                Creator = "John Brooks"
+                Creator = "Solo"
 
             });
+            
+            vm.Projects.Add(new Project()
+            {
+                Name = "Six Degrees of Sandler",
+                Description = "An API-AJAX Request project utilizing Glitch and a custom-made database we tailored to be Adam Sandler-themed!",
+                Type = "API Data Render",
+                Creator = "Paired with Christian Parker"
+
+            });
+            
+            vm.Projects.Add(new Project()
+            {
+                Name = "Helping Hands",
+                Description = "Capstone project rendered utilizing SpringBoot, Java, Spring Security, Thymleaf and SASS/SCSS for styling.",
+                Type = "Donation Forum/Database Rendering",
+                Creator = "Group - Lening Rodas & Evan Mead & Christian Parker"
+
+            });            
+
+            vm.Projects.Add(new Project()
+            {
+                Name = "Boom! Roasted.",
+                Description = "Object-based local data project to render coffee selections and purchase items via cart utilizing HTML/CSS/JS/Bootstrap",
+                Type = "Donation Forum/Database Rendering",
+                Creator = "Paired with Connor Wulf"
+
+            });
+
             return View(vm);
         }
 
