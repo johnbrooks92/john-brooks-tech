@@ -9,14 +9,14 @@
 
     <div class="text-center">
         <h1 class="display-4">John's Portfolio</h1>
-        <p>Select one of my projects below to view, or <a href="https://www.linkedin.com/in/john-brooks-/">you can view my LinkedIn here</a> anytime. Thank you for your visit!</p>
+        <p>Select one of my projects below to view, or <a href="https://www.linkedin.com/in/john-brooks-/" target="_blank">you can view my LinkedIn here</a> anytime. Thank you for your visit!</p>
     </div>
 
     <div class="container-fluid">
 
         @foreach (var project in Model.Projects)
         {
-
+        <a href="https://nemesis-engage.herokuapp.com/" target="_blank">
             <div class="card">
                 <h5>Name: @project.Name</h5>
                 <p>Synopsis: @project.Description</p>
@@ -25,6 +25,7 @@
                     <h5>Created by: @project.Creator</h5>
                 </div>
             </div>
+        </a>
         }
 
     </div>
