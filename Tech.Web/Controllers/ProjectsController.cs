@@ -16,9 +16,9 @@ namespace Tech.Web.Controllers
             vm.Projects.Add(new Project()
             {
                 Name = "Nemesis Engage",
-                Description = "Turn-based fighting system demo created utilizing HTML, CSS, JS and jQuery",
+                Description = "Turn-based fighting system demo created utilizing HTML, CSS, JS and jQuery. 2.0 version includes expanded roster from 2 to 30 characters and utilizing JSON object for enhanced fighting mechanics.",
                 Type = "Video Game",
-                Creator = "Solo"
+                Creator = "John Brooks"
 
             });
             
@@ -27,7 +27,7 @@ namespace Tech.Web.Controllers
                 Name = "Six Degrees of Sandler",
                 Description = "An API-AJAX Request project utilizing Glitch and a custom-made database we tailored to be Adam Sandler-themed!",
                 Type = "API Data Render",
-                Creator = "Paired with Christian Parker"
+                Creator = "Christian Parker, John Brooks"
 
             });
             
@@ -36,7 +36,7 @@ namespace Tech.Web.Controllers
                 Name = "Helping Hands",
                 Description = "Capstone project rendered utilizing SpringBoot, Java, Spring Security, Thymleaf and SASS/SCSS for styling.",
                 Type = "Donation Forum/Database Rendering",
-                Creator = "Group - Lening Rodas & Evan Mead & Christian Parker"
+                Creator = "Lening Rodas, Christian Parker, Evan Mead, John Brooks"
 
             });            
 
@@ -44,8 +44,8 @@ namespace Tech.Web.Controllers
             {
                 Name = "Boom! Roasted.",
                 Description = "Object-based local data project to render coffee selections and purchase items via cart utilizing HTML/CSS/JS/Bootstrap",
-                Type = "Donation Forum/Database Rendering",
-                Creator = "Paired with Connor Wulf"
+                Type = "Cart Creation/Object-Based Rendering",
+                Creator = "Connor Wulf, John Brooks"
 
             });
 
