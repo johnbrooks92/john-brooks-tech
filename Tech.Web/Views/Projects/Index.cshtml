@@ -1,5 +1,6 @@
 ﻿@model ProjectsViewModel
-
+    
+    <link href="~/css/StyleSheet.css" rel="stylesheet" type="text/css">
 
 @{
     ViewData["Title"] = "Home Page";
@@ -14,8 +15,12 @@
 
 @foreach (var project in Model.Projects)
 {
+    
+<div class="card">
     <h3>@project.Name</h3>
     <p>@project.Description</p>
     <h4>@project.Type</h4>
     <h5>@project.Creator</h5>
+</div>
 }
+
