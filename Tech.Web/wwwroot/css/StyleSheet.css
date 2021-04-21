@@ -1,13 +1,26 @@
 ﻿body {
-    background-color: #ff4e00;
-    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
 }
-
+.container-fluid {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 4px solid groove #ffd800;
+    background-color: rgba(0, 0, 0, 0.9);
+    box-sizing: border-box;
+    margin: 0 auto;
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
 .card {
-
-    border: .3rem;
-    border-color: gold;
-    color: deepskyblue;
-    background-color: #a40606;
-    background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
+    height: 20rem;
+    width: 16rem;
+    border-radius: .3rem;
+    border-color: deepskyblue;
+    color: #fab510;
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
 }
