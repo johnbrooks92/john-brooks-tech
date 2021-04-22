@@ -12,7 +12,7 @@
     box-sizing: border-box;
     margin: 0 auto;
     align-items: center;
-    display: inline-flex;
+    display: flex;
     justify-content: space-evenly;
 }
 .card {
@@ -20,8 +20,9 @@
     width: 16rem;
     border-radius: .3rem;
     border-color: deepskyblue;
-    color: #fab510;
-    background-color: #2a2a72;
+    padding: 4px;
+    color: rgb(156 58 21 / 0.95);
+    background-color: #2a2a72
     background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
 }
 .creators{
