@@ -22,9 +22,9 @@
     border-color: deepskyblue;
     padding: 4px;
     color: rgb(156 58 21 / 0.95);
-    background-color: #2a2a72
-    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    background-color: #7cffcb;
+    background-image: linear-gradient(315deg, #7cffcb 0%, #74f2ce 74%);
 }
-.creators{
+.creators {
     align-items: end;
 }
