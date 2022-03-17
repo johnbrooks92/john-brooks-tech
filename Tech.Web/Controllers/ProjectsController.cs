@@ -15,7 +15,7 @@ namespace Tech.Web.Controllers
             var vm = new ProjectsViewModel();
             vm.Projects.Add(new Project()
             {
-                Route = "Projects/nemesis-engage-2/index.html",
+                Route = "/nemesis-engage-2/index.html",
                 Name = "Nemesis Engage",
                 Description = "Turn-based fighting system demo created utilizing HTML, CSS, JS and jQuery. 2.0 version includes expanded roster from 2 to 30 characters and utilizing JSON object for enhanced fighting mechanics.",
                 Type = "Video Game",
