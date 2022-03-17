@@ -21,9 +21,9 @@
     border-radius: .3rem;
     border-color: deepskyblue;
     padding: 4px;
-    color: rgb(156 58 21 / 0.95);
-    background-color: #7cffcb;
-    background-image: linear-gradient(315deg, #7cffcb 0%, #74f2ce 74%);
+    color: rgba(255, 210, 179, 0.95);
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #5984bd 0%, #74f2ce 74%);
 }
 .creators {
     align-items: end;
