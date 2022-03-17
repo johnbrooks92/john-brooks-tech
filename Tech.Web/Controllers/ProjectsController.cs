@@ -16,7 +16,7 @@ namespace Tech.Web.Controllers
             vm.Projects.Add(new Project()
             {
                 Route = "/nemesis-engage-2/index.html",
-                Name = "Nemesis Engage",
+                Name = "Nemesis Engage 2",
                 Description = "Turn-based fighting system demo created utilizing HTML, CSS, JS and jQuery. 2.0 version includes expanded roster from 2 to 30 characters and utilizing JSON object for enhanced fighting mechanics.",
                 Type = "Video Game",
                 Creator = "John Brooks"
@@ -25,7 +25,7 @@ namespace Tech.Web.Controllers
             
             vm.Projects.Add(new Project()
             {
-                Route = "*/Tech.Web/nemesis-engage-2/index.html",
+                Route = "/nemesis-engage-2/index.html",
                 Name = "Six Degrees of Sandler",
                 Description = "An API-AJAX Request project utilizing Glitch and a custom-made database we tailored to be Adam Sandler-themed!",
                 Type = "API Data Render",
@@ -35,7 +35,7 @@ namespace Tech.Web.Controllers
             
             vm.Projects.Add(new Project()
             {
-                Route = "*/Tech.Web/nemesis-engage-2/index.html",
+                Route = "/nemesis-engage-2/index.html",
                 Name = "Helping Hands",
                 Description = "Capstone project rendered utilizing SpringBoot, Java, Spring Security, Thymleaf and SASS/SCSS for styling.",
                 Type = "Donation Forum/Database Rendering",
@@ -45,11 +45,11 @@ namespace Tech.Web.Controllers
 
             vm.Projects.Add(new Project()
             {
-                Route = "*/Tech.Web/nemesis-engage-2/index.html",
-                Name = "Boom! Roasted.",
-                Description = "Object-based local data project to render coffee selections and purchase items via cart utilizing HTML/CSS/JS/Bootstrap",
-                Type = "Cart Creation/Object-Based Rendering",
-                Creator = "Connor Wulf, John Brooks"
+                Route = "/weathermap/mapbox_maps_api.html",
+                Name = "WeatherNova",
+                Description = "Weather app made using API calls to the OpenWeatherMap API; Rendering instant 7-day forecast upon location selection as well as a geomap to visually represent the data.",
+                Type = "API Calls/MapRendering",
+                Creator = "John Brooks"
 
             });
 
