@@ -45,7 +45,7 @@ namespace Tech.Web.Controllers
 
             vm.Projects.Add(new Project()
             {
-                Route = "/weathermap/mapbox_maps_api.html",
+                Route = "/weathermap/weather_map.html",
                 Name = "WeatherNova",
                 Description = "Weather app made using API calls to the OpenWeatherMap API; Rendering instant 7-day forecast upon location selection as well as a geomap to visually represent the data.",
                 Type = "API Calls/MapRendering",
