@@ -13,6 +13,27 @@ namespace Tech.Web.Controllers
         public IActionResult Index()
         {
             var vm = new ProjectsViewModel();
+            
+            vm.Projects.Add(new Project()
+            {
+                Route = "https://sahelpinghands.org",
+                Name = "Helping Hands",
+                Description = "Capstone project rendered utilizing SpringBoot, Java, Spring Security, Thymeleaf and SASS/SCSS for styling.",
+                Type = "Donation Forum/Database Rendering",
+                Creator = "Lening Rodas, Christian Parker, Evan Mead, John Brooks"
+
+            });            
+
+            vm.Projects.Add(new Project()
+            {
+                Route = "/weathermap/weather_map.html",
+                Name = "WeatherNova",
+                Description = "Weather app made using API calls to the OpenWeatherMap API; Rendering instant 7-day forecast upon location selection as well as a geomap to visually represent the data.",
+                Type = "API Calls and MapRendering",
+                Creator = "John Brooks"
+
+            });
+            
             vm.Projects.Add(new Project()
             {
                 Route = "/nemesis-engage-2/index.html",
@@ -25,30 +46,10 @@ namespace Tech.Web.Controllers
             
             vm.Projects.Add(new Project()
             {
-                Route = "/nemesis-engage-2/index.html",
-                Name = "Six Degrees of Sandler",
-                Description = "An API-AJAX Request project utilizing Glitch and a custom-made database we tailored to be Adam Sandler-themed!",
-                Type = "API Data Render",
-                Creator = "Christian Parker, John Brooks"
-
-            });
-            
-            vm.Projects.Add(new Project()
-            {
-                Route = "/nemesis-engage-2/index.html",
-                Name = "Helping Hands",
-                Description = "Capstone project rendered utilizing SpringBoot, Java, Spring Security, Thymleaf and SASS/SCSS for styling.",
-                Type = "Donation Forum/Database Rendering",
-                Creator = "Lening Rodas, Christian Parker, Evan Mead, John Brooks"
-
-            });            
-
-            vm.Projects.Add(new Project()
-            {
-                Route = "/weathermap/weather_map.html",
-                Name = "WeatherNova",
-                Description = "Weather app made using API calls to the OpenWeatherMap API; Rendering instant 7-day forecast upon location selection as well as a geomap to visually represent the data.",
-                Type = "API Calls/MapRendering",
+                Route = "/pizza-app/order-pizza.html",
+                Name = "Pizza Ordering App",
+                Description = "Pizza ordering app built using fully-static structure of HTML, CSS, and JS.",
+                Type = "Static Ordering Cart",
                 Creator = "John Brooks"
 
             });
