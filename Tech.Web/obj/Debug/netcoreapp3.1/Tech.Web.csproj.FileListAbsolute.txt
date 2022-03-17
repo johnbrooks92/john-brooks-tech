@@ -111,3 +111,4 @@ C:/Users/johnt/source/repos/Tech/Tech.Web/obj/Debug/netcoreapp3.1/Tech.Web.cspro
 /Users/john/RiderProjects/john-brooks-tech/Tech.Web/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
 /Users/john/RiderProjects/john-brooks-tech/Tech.Web/obj/Debug/netcoreapp3.1/Tech.Web.csprojAssemblyReference.cache
 /Users/john/RiderProjects/john-brooks-tech/Tech.Web/obj/Debug/netcoreapp3.1/staticwebassets/Tech.Web.StaticWebAssets.xml
+/Users/john/RiderProjects/john-brooks-tech/Tech.Web/bin/Debug/netcoreapp3.1/Views/Projects/nemesis-engage-2/data/roster.json

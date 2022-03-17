@@ -15,6 +15,7 @@ namespace Tech.Web.Controllers
             var vm = new ProjectsViewModel();
             vm.Projects.Add(new Project()
             {
+                Route = "Projects/nemesis-engage-2/index.html",
                 Name = "Nemesis Engage",
                 Description = "Turn-based fighting system demo created utilizing HTML, CSS, JS and jQuery. 2.0 version includes expanded roster from 2 to 30 characters and utilizing JSON object for enhanced fighting mechanics.",
                 Type = "Video Game",
@@ -24,6 +25,7 @@ namespace Tech.Web.Controllers
             
             vm.Projects.Add(new Project()
             {
+                Route = "*/Tech.Web/nemesis-engage-2/index.html",
                 Name = "Six Degrees of Sandler",
                 Description = "An API-AJAX Request project utilizing Glitch and a custom-made database we tailored to be Adam Sandler-themed!",
                 Type = "API Data Render",
@@ -33,6 +35,7 @@ namespace Tech.Web.Controllers
             
             vm.Projects.Add(new Project()
             {
+                Route = "*/Tech.Web/nemesis-engage-2/index.html",
                 Name = "Helping Hands",
                 Description = "Capstone project rendered utilizing SpringBoot, Java, Spring Security, Thymleaf and SASS/SCSS for styling.",
                 Type = "Donation Forum/Database Rendering",
@@ -42,6 +45,7 @@ namespace Tech.Web.Controllers
 
             vm.Projects.Add(new Project()
             {
+                Route = "*/Tech.Web/nemesis-engage-2/index.html",
                 Name = "Boom! Roasted.",
                 Description = "Object-based local data project to render coffee selections and purchase items via cart utilizing HTML/CSS/JS/Bootstrap",
                 Type = "Cart Creation/Object-Based Rendering",

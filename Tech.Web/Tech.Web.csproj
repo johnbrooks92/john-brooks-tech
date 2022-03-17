@@ -8,4 +8,8 @@
     <Folder Include="wwwroot\img\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\nemesis-engage-2\data\roster.json" />
+  </ItemGroup>
+
 </Project>
