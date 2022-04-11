@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "RIDUPxDY5AcGhPzecv0KtFMgL4MOW60CtQDfgE6Ih+VRU5nILdz8R5Q1XLe1Yl2hW1+ApfZg97222TupO9wR4A==",
+  "dgSpecHash": "sjNKow8AWGv92onziDB8uFX1vJ4j3Mem3wOrkEK2qqPecmvVWnLWmEsURVYbFGK8XcRvUBw9q8bb4ULGOMSpFQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\johnt\\source\\repos\\Tech\\Tech.Web\\Tech.Web.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/john/RiderProjects/john-brooks-tech/Tech.Web/Tech.Web.csproj",
+  "expectedPackageFiles": [
+    "/Users/john/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.23/microsoft.netcore.app.host.osx-x64.3.1.23.nupkg.sha512"
+  ],
   "logs": []
 }

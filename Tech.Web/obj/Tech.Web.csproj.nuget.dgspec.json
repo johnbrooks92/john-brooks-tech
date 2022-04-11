@@ -1,33 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\johnt\\source\\repos\\Tech\\Tech.Web\\Tech.Web.csproj": {}
+    "/Users/john/RiderProjects/john-brooks-tech/Tech.Web/Tech.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\johnt\\source\\repos\\Tech\\Tech.Web\\Tech.Web.csproj": {
+    "/Users/john/RiderProjects/john-brooks-tech/Tech.Web/Tech.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\johnt\\source\\repos\\Tech\\Tech.Web\\Tech.Web.csproj",
+        "projectUniqueName": "/Users/john/RiderProjects/john-brooks-tech/Tech.Web/Tech.Web.csproj",
         "projectName": "Tech.Web",
-        "projectPath": "C:\\Users\\johnt\\source\\repos\\Tech\\Tech.Web\\Tech.Web.csproj",
-        "packagesPath": "C:\\Users\\johnt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\johnt\\source\\repos\\Tech\\Tech.Web\\obj\\",
+        "projectPath": "/Users/john/RiderProjects/john-brooks-tech/Tech.Web/Tech.Web.csproj",
+        "packagesPath": "/Users/john/.nuget/packages/",
+        "outputPath": "/Users/john/RiderProjects/john-brooks-tech/Tech.Web/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\johnt\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/john/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,6 +47,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[3.1.23, 3.1.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -63,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
         }
       }
     }

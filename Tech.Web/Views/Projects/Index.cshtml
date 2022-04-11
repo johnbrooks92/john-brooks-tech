@@ -1,43 +1,39 @@
 ﻿@model ProjectsViewModel
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link href="~/css/ProjectStyling.css" rel="stylesheet" type="text/css">
 
-    @{
-        ViewData["Title"] = "My Projects";
+    @section Styles {
+        <link rel="stylesheet" href="~/css/project.css">
     }
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
 
-    <div class="text-center">
-        <h1 class="display-4">John's Portfolio</h1>
-        <p>Select one of my projects below to view, or <a href="https://www.linkedin.com/in/john-brooks-/" target="_blank">you can view my LinkedIn here</a> anytime. Thank you for your visit!</p>
-    </div>
 
-    <div class="container-fluid">
+@{
+    ViewData["Title"] = "My Projects";
+}
 
-        @foreach (var project in Model.Projects)
-        {
+<div class="text-center">
+    <h1 class="display-4">John's Portfolio</h1>
+    <p>Select one of my projects below to view, or <a href="https://www.linkedin.com/in/john-brooks-/" target="_blank">you can view my LinkedIn here</a> anytime. Thank you for your visit!</p>
+</div>
+<br/>
+<div class="container">
+    @foreach (var project in Model.Projects)
+    {
         <a href="@project.Route" style="text-decoration:none" target="_blank">
             <div class="card">
-                <h5>Name: @project.Name</h5>
+                <div class="projectTitle">
+                    <h5 class="title">Name: @project.Name</h5>
+                </div>
+                <div class="projectInfo">
                 <p>Synopsis: @project.Description</p>
                 <p>Project Type: @project.Type</p>
-                <div class="creators">
                     <h5>Created by: @project.Creator</h5>
+                </div>
+                <div class="bar">
+                    <div class="emptybar"></div>
+                    <div class="filledbar"></div>
                 </div>
             </div>
         </a>
-        }
+    }
+</div>
 
-    </div>
-
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-            integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-            crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-            crossorigin="anonymous"></script>
