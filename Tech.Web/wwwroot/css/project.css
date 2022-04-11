@@ -17,6 +17,15 @@
 .projectInfo, .projectTitle {
     margin: 2.5%;
     padding: 2.5%;
+    
+}
+.text-center {
+    margin: auto;
+    width: 60%;
+}
+.text-center h1 {
+    margin: auto;
+    width: 60%;
 }
 .card {
     display: flex;
@@ -55,7 +64,7 @@
     color: #4dc5e7;
     font-weight: 300;
     position: absolute;
-    left: 2%;
+    left: 20%;
     top: 1.5%;
 }
 
