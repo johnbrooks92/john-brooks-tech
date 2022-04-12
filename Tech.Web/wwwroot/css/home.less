@@ -10,9 +10,9 @@
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   display: grid;
   font-family: 'Trebuchet MS', sans-serif;
-  height: 200px;
+  height: 300px;
   margin: 20px auto;
-  width: 350px;
+  width: 525px;
 }
 
 // Front of card
@@ -20,7 +20,6 @@
 .front {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(4, 1fr);
-
   .blue {
     background-color: @blue;
     grid-column: 8 / span 5;
@@ -97,16 +96,15 @@
     grid-column: 2 / span 6;
     grid-row: 5 / span 6;
     p {
-      font-size: 10px;
+      font-size: 8px;
       &:first-of-type {
-        font-size: 18px;
+        font-size: 6px;
         font-weight: bold;
         letter-spacing: 1px;
         text-transform: uppercase;
       }
       &:nth-of-type(2){
-        font-size: 12px;
-        margin-bottom: 15px;
+        font-size: 4px;
       }
     }
   }
@@ -124,6 +122,3 @@
     grid-row: 10 / span 3;
   }
 }
-
-
-
