@@ -2,8 +2,12 @@
 @pink: #BC544B;
 
 .dots(@color) {
+  background:
+          radial-gradient(@color 20%, transparent 19%),
+          radial-gradient(@color 20%, transparent 19%),
+          transparent;
   background-size: 6px 6px;
-  background: transparent radial-gradient(@color 20%, transparent 19%) radial-gradient(@color 20%, transparent 19%) 0 0, 3px 3px;
+  background-position: 0 0, 3px 3px;
 }
 
 .card {
@@ -20,6 +24,7 @@
 .front {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(4, 1fr);
+
   .blue {
     background-color: @blue;
     grid-column: 8 / span 5;
@@ -96,15 +101,16 @@
     grid-column: 2 / span 6;
     grid-row: 5 / span 6;
     p {
-      font-size: 8px;
+      font-size: 10px;
       &:first-of-type {
-        font-size: 6px;
+        font-size: 12px;
         font-weight: bold;
         letter-spacing: 1px;
         text-transform: uppercase;
       }
       &:nth-of-type(2){
-        font-size: 4px;
+        font-size: 8px;
+        margin-bottom: 15px;
       }
     }
   }
@@ -122,3 +128,5 @@
     grid-row: 10 / span 3;
   }
 }
+
+
