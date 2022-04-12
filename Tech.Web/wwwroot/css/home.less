@@ -1,6 +1,8 @@
 @blue: #82EEFD;
 @pink: #BC544B;
-
+body{
+  background-color: #151010;
+}
 .dots(@color) {
   background:
           radial-gradient(@color 20%, transparent 19%),
@@ -80,11 +82,21 @@
 
 
 // Back of card
-
+.logo-links{
+  background-color: @blue;
+  display: flex;
+}
+a{
+  margin-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+img{
+  margin: 4px;
+}
 .back {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
-
   .yellow {
     background-color: #fcc30b;
     grid-column: 1 / span 9;
@@ -98,19 +110,18 @@
   }
 
   .personal-info {
+    background-color: @blue;
     grid-column: 2 / span 6;
     grid-row: 5 / span 6;
     p {
+      width: 120px;
+      margin-left: 10px;
       font-size: 10px;
       &:first-of-type {
         font-size: 12px;
         font-weight: bold;
         letter-spacing: 1px;
         text-transform: uppercase;
-      }
-      &:nth-of-type(2){
-        font-size: 8px;
-        margin-bottom: 15px;
       }
     }
   }
