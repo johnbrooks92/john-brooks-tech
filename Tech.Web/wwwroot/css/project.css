@@ -12,12 +12,12 @@
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin: 2.5% 15%;
 }
-.projectInfo, .projectTitle {
-    margin: 2.5%;
-    padding: 2.5%;
-    
+.projectTitle, .projectInfo, .bar, .projectInfo p {
+    margin: 1%;
+    padding: 1%;
 }
 .text-center {
     margin: auto;
@@ -30,17 +30,16 @@
 .card {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     height: 50%;
     width: 100%;
     color: #cef3f3;
-    font-size: small;
+    font-size: xx-small;
     background-color: #0e0d11;
     border-radius: 1%;
-    box-shadow: -1rem 0 3rem #cef3f3;
-    /*   margin-left: -50px; */
+    box-shadow: -1rem 0 3rem #43afd7;
     transition: 0.4s ease-out;
     position: relative;
-    max-width: 220px;
     margin: 1%;
     padding: 1%;
 }
@@ -64,16 +63,16 @@
     color: #4dc5e7;
     font-weight: 300;
     position: absolute;
-    left: 20%;
+    left: 5%;
     top: 1.5%;
 }
 
 .bar {
     position: absolute;
-    top: 80%;
-    left: 10%;
-    height: 10%;
-    width: 80%;
+    top: 8%;
+    left: 65%;
+    height: 3%;
+    width: 30%;
     align-items: end;
 }
 
@@ -106,7 +105,7 @@
 }
 
 .stroke {
-    stroke: white;
+    stroke: rgba(140, 204, 238, 0.58);
     stroke-dasharray: 360;
     stroke-dashoffset: 360;
     transition: 0.6s ease-out;
@@ -118,6 +117,52 @@ svg {
 }
 
 .card:hover .stroke {
-    stroke-dashoffset: 100;
+    stroke-dashoffset: 10;
     transition: 0.6s ease-out;
+}
+
+@media screen and (max-width: 1200px) {
+    .projectInfo {
+        font-size: x-small;
+    }
+}
+@media screen and (max-width: 992px) {
+    .projectInfo {
+        font-size: xx-small;
+    }
+    .bar {
+        position: absolute;
+        top: 88%;
+        left: 80%;
+        height: 3%;
+        width: 15%;
+        align-items: end;
+    }
+}
+@media screen and (max-width: 768px) {
+    .projectInfo {
+        font-size: xx-small;
+    }
+    .projectTitle{
+        font-size: smaller;
+    }
+    .bar {
+        position: absolute;
+        top: 88%;
+        left: 65%;
+        height: 3%;
+        width: 30%;
+        align-items: end;
+    }
+}
+@media screen and (max-width: 576px) {
+    .projectInfo{
+        display: none;
+    }
+    .card{
+        width: 50%;
+    }
+    .projectTitle{
+        font-size: smaller;
+    }
 }

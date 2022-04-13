@@ -11,6 +11,11 @@
   <ItemGroup>
     <_ContentIncludedByDefault Remove="Views\nemesis-engage-2\data\roster.json" />
     <_ContentIncludedByDefault Remove="Views\Projects\nemesis-engage-2\data\roster.json" />
+    <_ContentIncludedByDefault Remove="wwwroot\pizza-app\.DS_Store" />
+    <_ContentIncludedByDefault Remove="wwwroot\pizza-app\custom.css" />
+    <_ContentIncludedByDefault Remove="wwwroot\pizza-app\order-pizza.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\pizza-app\pizzaworldbanner.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\pizza-app\pizzaworldbanner.png" />
   </ItemGroup>
 
   <ItemGroup>

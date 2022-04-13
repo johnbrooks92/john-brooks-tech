@@ -12,28 +12,31 @@
 
 <div class="text-center">
     <h1 class="display-4">John's Portfolio</h1>
-    <p>Select one of my projects below to view, or <a href="https://www.linkedin.com/in/john-brooks-/" target="_blank">you can view my LinkedIn here</a> anytime.</p>
+    <p>Select one of my projects below to view.</p>
 </div>
 <br/>
-<div class="container">
+<div class="container row">
     @foreach (var project in Model.Projects)
     {
-        <a href="@project.Route" style="text-decoration:none" target="_blank">
-            <div class="card">
-                <div class="projectTitle">
-                    <h5 class="title">Name: @project.Name</h5>
+    @*     <div class="col-3"> *@
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <a href="@project.Route" style="text-decoration:none" target="_blank">
+                <div class="card">
+                    <div class="projectTitle">
+                        <h5 class="title">@project.Name</h5>
+                    </div>
+                    <div class="projectInfo">
+                        <p>@project.Description</p>
+                        <p>@project.Type</p>
+                        <p>Developers: @project.Creator</p>
+                    </div>
+                    <div class="bar">
+                        <div class="emptybar"></div>
+                        <div class="filledbar"></div>
+                    </div>
                 </div>
-                <div class="projectInfo">
-                <p>Synopsis: @project.Description</p>
-                <p>Project Type: @project.Type</p>
-                    <h5>Created by: @project.Creator</h5>
-                </div>
-                <div class="bar">
-                    <div class="emptybar"></div>
-                    <div class="filledbar"></div>
-                </div>
-            </div>
-        </a>
+            </a>
+        </div>
     }
 </div>
 
