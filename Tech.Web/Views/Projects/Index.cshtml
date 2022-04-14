@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="~/css/project.css">
     }
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
+     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
 
 
 @{
@@ -15,11 +16,11 @@
     <p>Select one of my projects below to view.</p>
 </div>
 <br/>
-<div class="container row">
+<div class="container-fluid row">
     @foreach (var project in Model.Projects)
     {
     @*     <div class="col-3"> *@
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-4">
             <a href="@project.Route" style="text-decoration:none" target="_blank">
                 <div class="card">
                     <div class="projectTitle">
@@ -40,3 +41,6 @@
     }
 </div>
 
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
