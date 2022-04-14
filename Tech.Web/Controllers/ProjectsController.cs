@@ -33,17 +33,7 @@ namespace Tech.Web.Controllers
                 Creator = "John Brooks"
 
             });
-            
-            vm.Projects.Add(new Project()
-            {
-                Route = "/nemesis-engage-2/index.html",
-                Name = "NE: 2",
-                Description = "Turn-based fighting system demo created utilizing HTML, CSS, JS and jQuery. Expanded roster from 2 to 30 characters utilizing JSON object for enhanced fighting mechanics.",
-                Type = "Video Game",
-                Creator = "John Brooks"
 
-            });
-            
             vm.Projects.Add(new Project()
             {
                 Route = "https://github.com/SFW-FreeDevelopment/LordOfFrames",
@@ -64,6 +54,16 @@ namespace Tech.Web.Controllers
             
             });
             
+            vm.Projects.Add(new Project()
+            {
+                Route = "/nemesis-engage-2/index.html",
+                Name = "NE: 2",
+                Description = "Turn-based fighting system demo created utilizing HTML, CSS, JS and jQuery. Expanded roster from 2 to 30 characters utilizing JSON object for enhanced fighting mechanics.",
+                Type = "Fully Static Video Game",
+                Creator = "John Brooks"
+
+            });
+
             vm.Projects.Add(new Project()
             {
                 Route = "/coffee-project/index.html",
